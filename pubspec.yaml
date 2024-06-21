@@ -1,0 +1,52 @@
+name: BBTS
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_barcode_scanner: ^2.0.0
+  google_fonts: ^5.1.0
+  network_info_plus: ^4.0.1
+  connectivity_plus:
+  open_settings: ^2.0.2
+  permission_handler: ^10.4.2
+  dio: ^5.2.1+1
+  flutter_secure_storage: ^8.0.0
+  flutter_launcher_icons: ^0.13.1
+  scan: ^1.6.0
+  image_picker: ^1.0.2
+  local_auth: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/BBT_LOGO_2.png"
+  min_sdk_android: 21
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+        - asset: assets/fonts/OpenSans-Medium.ttf
